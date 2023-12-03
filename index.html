@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fithub User Fetch</title>
+    <title>Github User Fetch</title>
     
 <link rel ="stylesheet" href="style.css">
 </head>
 <body>
     <div class = "container">
         <div class="main">
-            <h1>Github profile Fetch</h1>
+            <div class "row">
+                <div class="col">
+          <h1 class="text-center text-capitalize">Github profile Fetch</h1>
             <input type ="text" id ="userName" placeholder="Enter the Github username">
-            <button id = "getDetails">Get Details</button>
+           
+            <button id = "getDetails" type="button">Get Details
+
+            </button>
+                 </div>
+              </div>
+           </div>
         </div>
-        <div id ="profileInfo"></div>
-        <div id ="repoInfo"></div>
+    </div>
+        <div class="container">
+        <div class="row">
+            <div class = "col-lg-6 mx-auto">
+        <div id ="profileInfo" class="d-flex justify-content-center">
         </div>
+        </div>
+        </div>
+
+         <div class="row">
+            <div class = "col-lg-10 col-md-10 col-10 col-sm-10 mx-auto">
+        <div class="row" id ="repoInfo">
+
+        </div>
+        </div>
+        </div>
+    </div>
     
-    <script src="https://fontawesome.com/icons/users?f=classic&s=solid&pc=%23461f51"></script>
+    <script src="https://kit.fontawesome.com/4d7408e38e.js" crossorigin="anonymous"></script>
     <script src ="./script.js"></script>
 </body>
 
